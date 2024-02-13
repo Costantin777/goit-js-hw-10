@@ -1,5 +1,5 @@
-<script src="path/to/izitoast.js"></script>
-<link rel="stylesheet" type="text/css" href="path/to/izitoast.css">
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
 
 const form = document.querySelector('.form');
 
@@ -44,3 +44,4 @@ form.addEventListener('submit', function (event) {
     }
   );
 });
+
